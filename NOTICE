@@ -1,0 +1,15 @@
+NOTICE
+
+site-generator-speed-01-v4 is a from-scratch reimplementation of makefun-site
+1.0.0, make.fun's own static site generator (MIT), as published in the
+site-generator-speed-01 bounty kit. makefun-site 1.0.0 is derived from:
+
+- metalsmith 2.7.0 (MIT), Copyright (c) 2014 Segment.io, Inc.
+  https://registry.npmjs.org/metalsmith/-/metalsmith-2.7.0.tgz
+- marked 18.2.1 (MIT), Copyright (c) 2011-2018, Christopher Jeffrey
+  https://registry.npmjs.org/marked/-/marked-18.2.1.tgz
+
+The reference program's own LICENSE and NOTICE are kept in the kit
+(baseline/makefun-site/vendor/makefun-site/). This entry shares no code with
+the reference implementation: the C11 engine, the slug tables and the driver
+were written fresh from the reference's documented behaviour and its README.
